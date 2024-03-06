@@ -1,4 +1,4 @@
-# Adventure Game
+#The Holy Sword
 ## Overview
 ### Welcome to the Adventure Game! This text-based game takes you on a journey through different locations, where you make decisions and face various challenges. Can you navigate through the town, defeat enemies, and ultimately triumph in this epic adventure?
 
