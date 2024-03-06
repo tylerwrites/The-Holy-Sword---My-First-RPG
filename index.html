@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <title>RPG</title>
+    </head>
+    <body>
+        <h1>The Holy Sword - The RPG</h1>
+        <div id="game">
+        <div id="game-text"> Welcome to the game. To start, you can walk forward or investigate the town further.
+        </div>
+        <div id='stats'>
+            <div id="health"><span>HEALTH: </span><span id='health-text'></span></div>
+            <div id="xp"><span>XP: </span><span id='xp-text'></span></div>
+            <div id="level"><span>LEVEL: </span><span id='level-text'></span></span></div>
+            <div id='gold'><span>GOLD: </span><span id='gold-text'></span></span></div>
+        </div>
+        <div id="choices">
+            <button id="option-1">Walk forward</button>
+            <button id="option-2">Investigate</button>
+            <button id="option-3">Fight</button></div>
+        <div id="enemy-stats">
+            <div><span>ENEMY HEALTH: </span><span id="enemy-health"></span></div>
+            <div><span>ENEMY NAME: </span><span id="enemy-name"></span></div> 
+        </div>
+        <div id="location">
+            <span id="location-name"></span>
+            <span id="description"></span>
+        </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
